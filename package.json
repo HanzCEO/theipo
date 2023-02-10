@@ -1,0 +1,24 @@
+{
+  "name": "theipo",
+  "version": "1.0.0",
+  "description": "IPO simulator game in command line",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanzCEO/theipo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanzCEO/theipo/issues"
+  },
+  "homepage": "https://github.com/HanzCEO/theipo#readme",
+  "dependencies": {
+    "better-sqlite3": "^8.1.0",
+    "open-simplex-noise": "^2.5.0"
+  }
+}
