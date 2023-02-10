@@ -1,4 +1,4 @@
-const db = require('better-sqlite3')('main.db', options);
+const db = require('better-sqlite3')('main.db');
 db.pragma('journal_mode = WAL');
 
 const { makeNoise2D } = require('open-simplex-noise');
